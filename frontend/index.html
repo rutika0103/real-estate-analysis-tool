@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyze Area</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Analyze Area</h1>
+
+        <!-- Input Section -->
+        <div style="margin-bottom: 20px;">
+            <input type="text" id="areaInput" placeholder="Enter area (e.g., Pune)">
+            <button id="analyzeBtn">Analyze</button>
+        </div>
+
+        <!-- Summary Card -->
+        <div class="card" style="background-color: #e0f7fa; margin-bottom: 20px;">
+            <p id="summaryText">Enter an area and click Analyze to see the results.</p>
+        </div>
+
+        <!-- Chart Card -->
+        <div class="card" style="background-color: #fff3e0; margin-bottom: 20px;">
+            <canvas id="chartCanvas" width="400" height="200"></canvas>
+        </div>
+
+        <!-- Table Card -->
+        <div class="card" style="background-color: #e8f5e9;">
+            <table>
+                <thead id="tableHeader"></thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
