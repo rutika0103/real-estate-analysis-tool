@@ -5,7 +5,8 @@ export default function QueryBox({ apiBase }) {
   const [compare, setCompare] = useState("");
   const [result, setResult] = useState(null);
   const [compResult, setCompResult] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const [, setLoading] = useState(false);
+
 
   const analyze = async () => {
     setLoading(true);
