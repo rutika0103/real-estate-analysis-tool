@@ -1,4 +1,4 @@
-** Real Estate Analysis Tool **
+ Real Estate Analysis Tool 
 
 SigmaValue — Full Stack Assignment (React + Flask)
 
